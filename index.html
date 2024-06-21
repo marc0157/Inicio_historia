@@ -1,0 +1,255 @@
+<!--
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title> MarcoyEsther </title>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- adding a icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- adding a favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	
+</head>
+
+<body>
+	<!-- SECCION INICIO-->
+	<section id="inicio">
+		<div class="contenido">
+			<header>
+				<div class="contenido-header">
+					<li class="inicio-dos"><a href= "#inicio">ME</a></li>
+					<nav id="nav" class="">
+						<ul id = "links">
+							<li> <a href= "#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+							<li> <a href= "#sobremi" onclick="seleccionar(this)">SOBRE NOSOTROS</a></li>
+							<li> <a href= "#portafolio" onclick="seleccionar(this)">NUESTRA HISTORIA</a></li>
+							<li> <a href= "#servicios" onclick="seleccionar(this)">NUESTROS PROYECTOS</a></li>
+							<li> <a href= "#contacto" onclick="seleccionar(this)">PROXIMAMENTE</a></li>
+						</ul>
+
+					</nav>
+					<!-- Button para cambiar estilo-->
+					<button class="switch" id="bdark">
+						<a class="moon"><i class="fa-solid fa-moon"></i></a>
+						<a class="sun"><i class="fa-solid fa-sun"></i></a>
+					</button>
+					<!-- Iconos del menu  responsive-->
+					<div id="icon-nav" onclick="responsiveMenu()">
+						<i class="fa-solid fa-bars"></i>
+					</div>
+					
+					<!-- Iconos social media-->
+					<div class = "redes">
+						<a href="https://www.youtube.com/c/MagnoEfren/videos" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+						<a href="https://www.instagram.com/magnoefren/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+						<a href="https://github.com/MagnoEfren" target="_blank"><i class="fa-brands fa-github"></i></a>
+						<a href="#"><i class="fa-brands fa-linkedin" target="_blank"></i></a>
+					</div>
+					
+				</div>
+			</header> 
+
+			<div class="presentacion">
+				<p class="bienvenida">Comienzo de una Historia </p>
+				<h2> Marco y Esther #26</h2>
+				<h20> Gracias por aceptarme esa rosa ❤(◔◡◔ )✿ y tener esos bellos ojitos</h20>
+				<p class="descripcion">No sere el primero pero si  que, estare desde ahora por siempre a tu lado </p>
+				<a href="#portafolio"> COMIENZO</a>
+			</div>
+			
+		</div>
+	</section>
+	<!-- SECCION SOBRE MI -->
+	<section id="sobremi">
+		<div class="contenedor-foto">
+			<img src="images/foto1.jpg">
+		</div>
+		<div class="sobremi"> 
+			<p class="titulo-seccion"> ♥ #26 Agosto 2023 ♥</p>
+			<p>Marco y Esther <br /> <br /> El destino  es algo que uno no se puede entender , pero volvi  a sujetar tus manos y  nunca lo volvere a 
+                        soltarte. Es un nuevo comienzo con grandes metas y proyectos juntos , recuerdos unicos ♥ son 10♥MESES♥ FELIZ DIA MI REYNA ,gracias por  estar junto ami ♥.
+
+	   
+				 </p>
+
+			<a href="#"> TE ♥ BONITA </a>
+
+		</div>		
+	</section>
+
+	<!-- SECCION PORTAFOLIO -->
+	<section id="portafolio">
+		<h3 class="titulo-seccion"> NUESTRA HISTORIA</h3>
+
+		<div class= "proyecto">
+			<div class='proyecto_numero'>
+				<div class='foto'>
+					<img src="images/proyecto1.png">
+				</div>
+				<div class='informacion'>
+					<h2>Primera Salida</h2>
+					<p class="subtitulo">Maravillosa Tarde Junto a Tu Lado</p>
+					<p>Fue el primer momento que nos unio al llegar costa verde y observar el mar sentimos ese momento  juntosy llego un momento que  te vi y te pregunte si  podria abrzarte y fue ahi donde comenzo todo desde  que estaria atu lado y no deseaba volver verte a llorar , y regalarte algo que hasta ahora lo llevaras en tu lado "Esther♥"
+					Ahora q ya somos novios  tendremos q volver y hacer lo que nos falta, los recuerdos,fotos y mirar el oasis del mar .26/08/2023</p>
+                                         <div class="historia">
+				         <span class="icon"><i class="fa-solid fa-user-friends"></i></span>
+		                         </div>
+
+					
+	
+				</div>			
+			</div>
+		</div>
+
+		<div class= "proyecto">
+			<div class= "proyecto_numero">
+				<div class='foto'>
+					<img src="images/proyecto2.png">
+				</div>
+				<div class='informacion'>
+					<h2>Aplicación Tkinter</h2>
+					<p class="subtitulo">Interfaz Gráfica para Control de Arduino con Python y Tkinter</p>
+					<p>En este emocionante proyecto, se presenta una interfaz gráfica desarrollada en Python utilizando la librería Tkinter para interactuar con un Arduino y enviar y recibir datos analógicos. La interfaz permite controlar señales analógicas y visualizarlas en tiempo real utilizando Matplotlib. Además, ofrece la posibilidad de variar las salidas PWM mediante deslizadores (Sliders) o escalas (Scale), proporcionando una experiencia de usuario interactiva y personalizable. </p>
+					
+					<div class ="links">				
+						<a href="https://youtu.be/DJY9TFxrYbM?si=Ab1AMSA2tl1qDYSw" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+						<a href="https://github.com/MagnoEfren" target="_blank"><i class="fa-brands fa-github"></i></a>				
+					</div>
+				</div>			
+			</div>
+		</div>
+
+		<div class= "proyecto">
+			<div class= "proyecto_numero">
+				<div class='foto'>
+					<img src="images/proyecto3.png">
+				</div>
+				<div class='informacion'>
+					<h2>Aplicación Kivy</h2>
+					<p class="subtitulo">Aplicación del Clima con KivyMD y la API de OpenWeather</p>
+					<p>Esta aplicación del clima desarrollada en KivyMD ofrece una experiencia intuitiva y atractiva para usuarios que deseen acceder fácilmente a la información meteorológica de cualquier ubicación. Integrando la potencia de la API de OpenWeather, proporciona datos precisos y actualizados sobre condiciones climáticas en tiempo real. </p>
+					
+					<div class ="links">				
+						<a href="https://www.youtube.com/c/MagnoEfren/videos" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+						<a href="https://github.com/MagnoEfren/kivy-weather-app" target="_blank"><i class="fa-brands fa-github"></i></a>				
+					</div>
+				</div>			
+			</div>
+		</div>
+
+		<div class= "proyecto">
+			<div class= "proyecto_numero">
+				<div class='foto'>
+					<img src="images/proyecto4.png">
+				</div>
+				<div class='informacion'>
+					<h2>Aplicación Flet</h2>
+					<p class="subtitulo">Sistema CRUD en Python con Flet y SQLite</p>
+					<p>En este proyecto completo, se detalla el desarrollo de un Sistema CRUD (Crear, Leer, Actualizar, Borrar) en Python, implementando la biblioteca Flet junto con SQLite. Este sistema permite la gestión eficiente de datos a través de un formulario responsive que incluye campos esenciales como nombre, edad, correo y teléfono. </p>
+					
+					<div class ="links">				
+						<a href="https://youtu.be/vHUQMn0JUY4?si=mtmVSYYlWtqvI2oQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+						<a href="https://github.com/MagnoEfren" target="_blank"><i class="fa-brands fa-github"></i></a>				
+					</div>
+				</div>			
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- SECCION SOBRE MI -->
+	<section id="servicios">
+		<h3 class="titulo-seccion"> NUESTROS PROYECTOS</h3>
+		<div class="fila">
+			<div class="servicio">
+				<span class="icon"><i class="fa-solid fa-user-friends"></i></span>
+				<h4>Realizar nuestro camino juntos</h4>
+				<hr>
+				<ul class="servicios-tag">
+					<li>Python</li>
+					<li>Qt</li>
+					<li>Tkinter</li>
+				</ul>
+				<p>Desarrollo de aplicaciones de escritorio en Python con PyQt5, PySide2, Tkinter, Kivy </p>
+			</div>
+
+			<div class="servicio">
+				<span class="icon"><i class="fa-solid fa-mobile-screen"></i></span>
+				<h4>Desarrollo de Aplicaciones Moviles</h4>
+				<hr>
+				<ul class="servicios-tag">
+					<li>Python</li>
+					<li>Kivy</li>
+					<li>KivyMD</li>
+				</ul>
+				<p>Desarrollo de aplicaciones moviles en python con Kivy y KivyMD</p>
+			</div>
+
+			<div class="servicio">
+				<span class="icon"><i class="fa-solid fa-microchip"></i></span>
+				<h4>Proyectos de Internet de las Cosas</h4>
+				<hr>
+				<ul class="servicios-tag">
+					<li>Arduino</li>
+					<li>PIC</li>
+					<li>Python</li>
+				</ul>
+				<p>Desarrollo de proyectos de Internet de las cosas</p>
+			</div>
+
+			<div class="servicio">
+				<span class="icon"><i class="fa-solid fa-code"></i></span>
+				<h4>Librerias de Python</h4>
+				<hr>
+				<ul class="servicios-tag">
+					<li>IA</li>
+					<li>GUI</li>
+					<li>DATA SCIENCE</li>
+				</ul>
+				<p>Trabajo con Matplotlib, Numpy, Pandas para analisis de datos</p>
+			</div>			
+		</div>
+	</section>
+	<!--SECCION DE CONTACTO-->
+	<section id="contacto">
+		<h3 class="titulo-seccion">Prox....BODA</h3>
+		<div class="contenedor-form">
+			<div class="datos">
+				<span class="icon"><i class="fa-solid fa-envelope"></i></span>
+				<h4>Email: magnoefrenar@hotmail.com</h4>
+			</div>
+			<div class="datos">
+				<span class="icon"><i class="fa-brands fa-facebook-messenger"></i></span>
+				<h4>Instagram: @magnoefren</h4>
+			</div>			
+		</div>
+	</section>
+	<!--SECCION FOOTER-->
+	<footer>
+		<p>© Copyright 2024 Magno Efren - Todos los derechos Reservados</p>
+		<!-- Iconos social media-->
+		<div class = "redes">
+			<a href="https://www.youtube.com/c/MagnoEfren/videos" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+			<a href="https://www.instagram.com/magnoefren/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+			<a href="https://github.com/MagnoEfren" target="_blank"><i class="fa-brands fa-github"></i></a>
+			<a href="#"><i class="fa-brands fa-linkedin" target="_blank"></i></a>
+		</div>
+	</footer>
+
+	<script src="js/app.js"></script>
+
+</body>
+	
+	
+</html>
